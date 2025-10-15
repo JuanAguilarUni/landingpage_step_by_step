@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso WEB.</title>
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-    <!--https://fonts.google.com/specimen/Bitcount+Single+Ink-->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="hero">
@@ -16,31 +15,159 @@
                 <h2 class="nav_title">CURSO WEB</h2>
             </div>
 
-            <ul class="nav_link nav_link--menu">
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Inicio</a>
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__link">Inicio</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Acerca de</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__link">Acerca de</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Contacto</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__link">Contacto</a>
                 </li>
-                <li class="nav_items">
-                    <a href="#" class="nav_link">Blog</a>
+                <li class="nav__items">
+                    <a href="#" class="nav__link">Blog</a>
                 </li>
-                <img src="assets/close.svg" class="nav_close" alt="close">
+                <img src="./assets/close.svg" class="nav__close" alt="close">
             </ul>
-            <div class="nav_menu">
-                <img src="./assets/menu.svg" class="nav_img" alt="iconMneu">
+            <div class="nav__menu">
+                <img src="./assets/menu.svg"  class="nav__img" alt="iconMenu">
             </div>
         </nav>
 
-        <section class="hero_container container">
-            <h1 class="hero_title">Aprende WEB desde Cero hasta dominarlo.</h1>
-            <p class="hero__paragraph">Elige aprender WEB de una vez por todas, unas vez que termines este curso serás capaz de crear cualquier WEB con HTML, CSS, JAVASCRIPT y crear tus propios proyectos.</p>
+        <section class="hero__container container">
+            <h1 class="hero_title"> Aprende WEB desde CERO hasta dominarlo.</h1>
+            <p class="hero__paragraph">Elige aprender WEB de una vez por todas, una vez que termines este curso serás capaz de crear cualquier WEB con HTML, CSS, JAVASCRIPT y crear tus propios proyectos.</p>
             <a href="#" class="cta">Comenzar ahora</a>
         </section>
     </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué parenderas en este Curso?</h2>
+            <p class="about__paragraph">Todo lo necesario y obligatorio de WEB, (Flexbox, Grid, Custom properties, Position, Animaciones, Box Model y más)</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./assets/shapes.svg" class="about__icon" alt="#">
+                    <h3 class="about__title">CSS Layout</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus repudiandae eum aliquam eius, unde delectus reiciendis eos error ratione nobis? Nobis quia soluta iure eos illum, inventore possimus consequuntur sapiente.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./assets/paint.svg" class="about__icon" alt="#">
+                    <h3 class="about__title">Animaciones</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus repudiandae eum aliquam eius, unde delectus reiciendis eos error ratione nobis? Nobis quia soluta iure eos illum, inventore possimus consequuntur sapiente.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./assets/code.svg" class="about__icon" alt="#">
+                    <h3 class="about__title">SASS</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus repudiandae eum aliquam eius, unde delectus reiciendis eos error ratione nobis? Nobis quia soluta iure eos illum, inventore possimus consequuntur sapiente.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h2 class="subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h2>
+                    <p class="knowledge__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio repudiandae, officiis possimus iste neque aperiam. Est provident expedita, laudantium excepturi eum hic odio eaque! Nobis ex praesentium ullam provident officiis!</p>
+                    <a href="#" class="cta">Entrar al curso</a>
+                </div>
+                <figure class="knowledge__picture">
+                    <img src="./assets/macbook.png" class="knowledge__img" alt="#">
+                </figure>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name">Flexbox</p>
+                    <h3 class="price__price">Free</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Flexbox</p>
+                        <p class="price__features">Layouts</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name">Grid</p>
+                    <h3 class="price__price">$30/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Grid</p>
+                        <p class="price__features">Implicit Grid</p>
+                        <p class="price__features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price__element">
+                    <p class="price__name">Animaciones</p>
+                    <h3 class="price__price">$40/mes</h3>
+
+                    <div class="price__items">
+                        <p class="price__features">Animation</p>
+                        <p class="price__features">Transition</p>
+                        <p class="price__features">Render Website</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Empieza ahora</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img class="testimony__arrow" id="before" src="./assets/leftarrow.svg">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es tu salvador, <span class="testimony__course">estudiante de CSS</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quis perferendis, fuga tempore sapiente provident quod quam voluptas, nulla sequi perspiciatis. Laboriosam asperiores amet at culpa incidunt sapiente atque inventore.</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./assets/face.jpg" class="testimony__img" alt="perfil1">
+                    </figure>
+                </section>
+
+                <section class="testimony__body testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es rey, <span class="testimony__course">estudiante de Flex</span></h2>
+                        <p class="testimony__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./assets/face2.jpg" class="testimony__img" alt="perfil1">
+                    </figure>
+                </section>
+
+                <section class="testimony__body testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es tu verdad, <span class="testimony__course">estudiante de Grid</span></h2>
+                        <p class="testimony__review">Laboriosam asperiores amet at culpa incidunt sapiente atque inventore.</p>
+                    </div>
+                    <figure class="testimony__picture">
+                        <img src="./assets/face3.jpg" class="testimony__img" alt="perfil1">
+                    </figure>
+                </section>
+
+                <img src="./assets/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+    </main>
+    <script src="./js/slider.js"></script>
 </body>
 </html>
